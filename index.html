@@ -1,0 +1,193 @@
+<! –– Thanks to https://www.youtube.com/@howtobecomeadeveloper who have helped guiding me through every detail ––>
+
+<! –– background image credit : https://wallpapersden.com/desert-hd-moon-night-wallpaper/ ––>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ponprathan's Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+    <body>
+        <style>
+            body  {
+                width: 100%;
+                height: 100vh;
+                background-attachment: fixed;
+                background-repeat: no-repeat;
+                background-image: linear-gradient(rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.55)) , url(image/background.jpg);     
+                background-size: cover;
+                background-position: center;
+            }
+        </style>
+
+            <nav id="navbar">
+                <img src="image/logo1.jpg" class="logo">
+                <div>
+                    <ul class="nav-links">
+                        <li><a href="#AboutMe">About Me</a></li>
+                        <li><a href="#Education">Education</a></li>
+                        <li><a href="#Skill">Skill</a></li>
+                        <li><a href="#Contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+
+            <nav id="hamburger-nav">
+                <img src="image/logo1.jpg" class="logo">
+                <div class="hamburger-menu">
+                    <div class="hamburger-icon" onclick="toggleMenu()">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                        <div class="menu-links">
+                            <li><a href="#AboutMe" onclick="toggleMenu()">About Me</a></li>
+                            <li><a href="#Education" onclick="toggleMenu()">Education</a></li>
+                            <li><a href="#Skill" onclick="toggleMenu()">Skill</a></li>
+                            <li><a href="#Contact" onclick="toggleMenu()">Contact</a></li>
+                        </div>
+                </div>
+            </nav>
+
+            <section id="landingPage">
+                <div class="section__pic-container">
+                    <img src="image/profilePic.jpg" alt="Ponprathan profile picture" />
+                </div>
+                <div class="section__text">
+                    <p class="section__text__p1">Hello, I'm</p>
+                    <h1 class="title">Ponprathan Kuearung</h1>
+                    <p class="section__text__p5">                        </p>
+                    <p class="section__text__p2">1st Year Student</p>
+                    <p class="section__text__p3">Department of Computer Engineering</p>
+                    <p class="section__text__p4">King Mongkut's University of Technology Thonburi</p>
+                </div>
+            </section>
+
+            <section id="AboutMe">
+                
+                <div class="section__text">
+                    <p class="section__text__p1">Let's get to know</p>
+                    <h1 class="title">About Me</h1>
+                    <div class="details">
+                        <p >Nickname : Cheer</p>
+                        <p>Born : 22 September 2004</p>
+                        <p>Birth Region : Southern Thailand</p>
+                        <p>Hobby : Travelling, Shopping, Running, Reading, Enjoying Live :))</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="Education">
+                <p class="section__text__p1">         </p>
+                <h1 class="title">Education</h1>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img 
+                            src="image/YORWOR.png" 
+                            alt="education icon" 
+                            class="icon"
+                            />
+                            <h3>Hatyaiwittayalai School</h3>
+                            <p>Matthayom 1-3</p>
+                        </div>
+                        <div class="details-container">
+                            <img 
+                            src="image/YORWOR.png" 
+                            alt="education icon" 
+                            class="icon"
+                            />
+                            <h3>Hatyaiwittayalai School</h3>
+                            <p>Math-Sci Matthayom 4-6</p>
+                        </div>
+                        <div class="details-container">
+                            <img 
+                            src="image/KMUTT.png" 
+                            alt="education icon" 
+                            class="icon"
+                            />
+                            <h3>KMUTT</h3>
+                            <p>Computer Engineering</p>
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+
+
+
+            <section id="Skill">
+                <p class="section__text__p1">         </p>
+                <h1 class="title">Skill</h1>
+                <div class="about-details-container">
+                    <div class="about-containers">
+                        <div class="details-container">
+                            <img 
+                            src="image/Arduino.png" 
+                            alt="skill icon" 
+                            class="icon"
+                            />
+                            <h3>Arduino (C++)</h3>
+                            
+                        </div>
+                        <div class="details-container">
+                            <img 
+                            src="image/C.png" 
+                            alt="education icon" 
+                            class="icon"
+                            />
+                            <h3>C language</h3>
+                            
+                        </div>
+                        <div class="details-container">
+                            <img 
+                            src="image/speak.png" 
+                            alt="education icon" 
+                            class="icon"
+                            />
+                            <h3>English Communication</h3>
+                            
+                        </div>
+                    </div>
+                </div>
+                
+            </section>
+            
+        
+            <section id="Contact">
+                <h1 class="title">My Contact</h1>
+                <div class="contact-info-upper-container">
+                    <div class="contact-info-container">
+                        <p><a href="mailto:kanyaphat.chai@kmutt.ac.th">Email : ponprathan.kuea@kmutt.ac.th</a></p>
+                    </div>
+                    <div class="contact-info-container">
+                        <p><a href="https://instagram.com/ppt_cheer?utm_source=qr&igshid=OGU0MmVlOWVjOQ%3D%3D">IG : ppt_cheer</a></p>
+                    </div>
+                </div>
+            </section>
+
+
+            <footer>
+                <nav>
+                    <div class="nav-links-container">
+                        <ul class="nav-links">
+                            <li><a href="#About">About</a></li>
+                            <li><a href="#Education">Education</a></li>
+                            <li><a href="#Skill">Skill</a></li>
+                            <li><a href="#Contact">Contact</a></li>
+                          </ul>
+                    </div>
+                </nav>
+
+            </footer>
+        
+    <script src="script.js"></script>
+    </body>
+</html>
